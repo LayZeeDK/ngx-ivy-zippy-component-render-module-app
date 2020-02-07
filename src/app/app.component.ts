@@ -4,7 +4,7 @@ import { CapitalizePipe } from './capitalize.pipe';
 import { ZippyComponent } from './zippy.component';
 
 @Component({
-  selector: 'app-root',
+  selector: 'zippy-app',
   template: `
     <app-zippy label="Click me">
       {{title | capitalize}}
