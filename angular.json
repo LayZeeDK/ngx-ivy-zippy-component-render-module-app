@@ -42,7 +42,7 @@
             "index": "src/index.html",
             "main": "src/main.ts",
             "tsConfig": "tsconfig.app.json",
-            "aot": true,
+            "aot": false,
             "assets": [],
             "styles": [],
             "scripts": []
@@ -64,7 +64,7 @@
               "vendorChunk": false,
               "commonChunk": false,
               "es5BrowserSupport": false,
-              "buildOptimizer": true,
+              "buildOptimizer": false,
               "budgets": [
                 {
                   "type": "initial",
